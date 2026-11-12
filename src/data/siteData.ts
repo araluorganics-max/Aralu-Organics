@@ -6,9 +6,9 @@ export const BRAND = {
   kannadaName: 'ಅರಳು',
   tagline: 'Rooted in nature. Made to bloom.',
   // [WHATSAPP_NUMBER] digits only, with country code, e.g. 919876543210
-  whatsappNumber: '919876543210',
+  whatsappNumber: '919481526703',
   // [PHONE] e.g. +91 98765 43210
-  phone: '+91 98765 43210',
+  phone: '+91 9481526703',
   // [EMAIL] e.g. hello@aralu.in
   email: 'araluorganics@gmail.com',
   // [INSTAGRAM_URL] e.g. https://instagram.com/aralu.organics

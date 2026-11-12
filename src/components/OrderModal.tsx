@@ -219,11 +219,10 @@ export default function OrderModal() {
           {/* Free gift callout — only for Castor Oil when qty ≥ 2 */}
           {orderItem.id === CASTOR_OIL_OFFER.triggerProductId && (
             <div
-              className={`flex items-start gap-3 rounded-2xl border p-3.5 transition-all duration-500 ${
-                offerApplies
+              className={`flex items-start gap-3 rounded-2xl border p-3.5 transition-all duration-500 ${offerApplies
                   ? 'border-amber-dark/40 bg-amber-light/20'
                   : 'border-dashed border-amber-dark/25 bg-amber-light/10'
-              }`}
+                }`}
             >
               <Gift
                 className={`mt-0.5 h-5 w-5 shrink-0 ${offerApplies ? 'text-amber-dark' : 'text-amber-dark/50'}`}
@@ -281,9 +280,8 @@ export default function OrderModal() {
                     if (formErrors.name) setFormErrors((err) => ({ ...err, name: '' }));
                   }}
                   placeholder="e.g. Priya Sharma"
-                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${
-                    formErrors.name ? 'border-red-500 bg-red-50/30' : 'border-green/20'
-                  }`}
+                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${formErrors.name ? 'border-red-500 bg-red-50/30' : 'border-green/20'
+                    }`}
                 />
                 {formErrors.name && <p className="mt-1 text-xs text-red-600">{formErrors.name}</p>}
               </div>
@@ -304,10 +302,9 @@ export default function OrderModal() {
                       setPhone(e.target.value.replace(/[^0-9]/g, '').slice(0, 10));
                       if (formErrors.phone) setFormErrors((err) => ({ ...err, phone: '' }));
                     }}
-                    placeholder="9876543210"
-                    className={`w-full rounded-xl border bg-cream py-2 pl-16 pr-3 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${
-                      formErrors.phone ? 'border-red-500 bg-red-50/30' : 'border-green/20'
-                    }`}
+                    placeholder="9988998899"
+                    className={`w-full rounded-xl border bg-cream py-2 pl-16 pr-3 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${formErrors.phone ? 'border-red-500 bg-red-50/30' : 'border-green/20'
+                      }`}
                   />
                 </div>
                 {formErrors.phone && <p className="mt-1 text-xs text-red-600">{formErrors.phone}</p>}
@@ -335,9 +332,8 @@ export default function OrderModal() {
                   if (formErrors.address) setFormErrors((err) => ({ ...err, address: '' }));
                 }}
                 placeholder="e.g. #42, Green Glen Layout, Bellandur"
-                className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${
-                  formErrors.address ? 'border-red-500 bg-red-50/30' : 'border-green/20'
-                }`}
+                className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${formErrors.address ? 'border-red-500 bg-red-50/30' : 'border-green/20'
+                  }`}
               />
               {formErrors.address && <p className="mt-1 text-xs text-red-600">{formErrors.address}</p>}
             </div>
@@ -356,9 +352,8 @@ export default function OrderModal() {
                     if (formErrors.city) setFormErrors((err) => ({ ...err, city: '' }));
                   }}
                   placeholder="e.g. Bengaluru"
-                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${
-                    formErrors.city ? 'border-red-500 bg-red-50/30' : 'border-green/20'
-                  }`}
+                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${formErrors.city ? 'border-red-500 bg-red-50/30' : 'border-green/20'
+                    }`}
                 />
                 {formErrors.city && <p className="mt-1 text-xs text-red-600">{formErrors.city}</p>}
               </div>
@@ -377,9 +372,8 @@ export default function OrderModal() {
                     if (formErrors.pincode) setFormErrors((err) => ({ ...err, pincode: '' }));
                   }}
                   placeholder="560103"
-                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${
-                    formErrors.pincode ? 'border-red-500 bg-red-50/30' : 'border-green/20'
-                  }`}
+                  className={`mt-1 w-full rounded-xl border bg-cream px-3 py-2 text-sm text-ink outline-none transition focus:border-green focus:ring-1 focus:ring-green ${formErrors.pincode ? 'border-red-500 bg-red-50/30' : 'border-green/20'
+                    }`}
                 />
                 {formErrors.pincode && <p className="mt-1 text-xs text-red-600">{formErrors.pincode}</p>}
               </div>
@@ -395,11 +389,10 @@ export default function OrderModal() {
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <label
-                className={`flex cursor-pointer items-start gap-3 rounded-2xl border p-3.5 transition ${
-                  paymentMethod === 'UPI'
+                className={`flex cursor-pointer items-start gap-3 rounded-2xl border p-3.5 transition ${paymentMethod === 'UPI'
                     ? 'border-green bg-green/10 text-green shadow-sm'
                     : 'border-green/15 bg-cream hover:bg-cream-50'
-                }`}
+                  }`}
               >
                 <input
                   type="radio"
@@ -419,11 +412,10 @@ export default function OrderModal() {
               </label>
 
               <label
-                className={`flex cursor-pointer items-start gap-3 rounded-2xl border p-3.5 transition ${
-                  paymentMethod === 'COD'
+                className={`flex cursor-pointer items-start gap-3 rounded-2xl border p-3.5 transition ${paymentMethod === 'COD'
                     ? 'border-green bg-green/10 text-green shadow-sm'
                     : 'border-green/15 bg-cream hover:bg-cream-50'
-                }`}
+                  }`}
               >
                 <input
                   type="radio"
