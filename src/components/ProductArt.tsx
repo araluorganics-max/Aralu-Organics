@@ -8,7 +8,14 @@ type ProductArtProps = {
 // Flat placeholder art. Swap for real photos by setting `image` on the product in siteData.
 export default function ProductArt({ product, className }: ProductArtProps) {
   if (product.image) {
-    return <img src={product.image} alt={`${product.name}, ${product.size}`} className={className} loading="lazy" />;
+    return (
+      <img
+        src={product.image}
+        alt={`${product.name}, ${product.size}`}
+        className={`object-contain ${className || ''}`}
+        loading="lazy"
+      />
+    );
   }
 
   if (product.art === 'bottle') {

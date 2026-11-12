@@ -25,19 +25,19 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="relative flex h-60 items-center justify-center border-b border-green/10 bg-gradient-to-b from-cream-200/50 to-cream-50/50 p-8 sm:h-68">
         {/* Top-left badge: offer for castor oil, else "Pure Essential" */}
         {isCastorOil ? (
-          <span className="absolute left-4 top-4 inline-flex items-center gap-1 rounded-full border border-amber-dark/30 bg-amber-light/90 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-amber-dark backdrop-blur-sm">
+          <span className="absolute left-4 top-4 z-20 inline-flex items-center gap-1 rounded-full border border-amber-dark/30 bg-amber-light/95 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-amber-dark shadow-sm backdrop-blur-sm">
             <Gift className="h-3 w-3" />
             {CASTOR_OIL_OFFER.badgeLabel}
           </span>
         ) : (
-          <span className="absolute left-4 top-4 inline-flex items-center gap-1 rounded-full border border-green/15 bg-cream/90 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-green backdrop-blur-sm">
+          <span className="absolute left-4 top-4 z-20 inline-flex items-center gap-1 rounded-full border border-green/15 bg-cream/95 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider text-green shadow-sm backdrop-blur-sm">
             <Sparkles className="h-3 w-3 text-amber-dark" />
             Pure Essential
           </span>
         )}
         <ProductArt
           product={product}
-          className="h-full w-auto max-w-full drop-shadow-sm transition-transform duration-500 group-hover:scale-105"
+          className="relative z-10 h-full w-auto max-w-full drop-shadow-sm transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 

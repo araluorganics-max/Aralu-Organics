@@ -50,6 +50,7 @@ export const PRODUCTS: Product[] = [
     bestFor: ['Hair & scalp', 'Skin', 'Brows & lashes'],
     price: '150',
     art: 'bottle',
+    image: '/images/castor-oil-product.png',
     keywords: 'cold pressed castor oil 200ml',
   },
   {
