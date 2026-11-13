@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://araluorganics.in/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://araluorganics.in/images/castor-oil-product.png</image:loc>
+      <image:title>Pure Cold-Pressed Castor Oil 200ml</image:title>
+      <image:caption>Pure cold-pressed castor oil for hair, scalp, skin, brows and lashes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://araluorganics.in/images/rosemary-powder.png</image:loc>
+      <image:title>Rosemary Powder 100g</image:title>
+      <image:caption>Pure dried rosemary leaves powder for herbal hair masks.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://araluorganics.in/images/shikakai-powder.png</image:loc>
+      <image:title>Shikakai Powder 100g</image:title>
+      <image:caption>Natural gentle hair cleanser powder made from dried shikakai pods.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://araluorganics.in/#products</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://araluorganics.in/#about</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://araluorganics.in/#how-to-use</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://araluorganics.in/#faq</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://araluorganics.in/#contact</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+

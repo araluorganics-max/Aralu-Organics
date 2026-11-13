@@ -56,23 +56,27 @@ export const PRODUCTS: Product[] = [
   {
     id: 'rosemary-powder',
     name: 'Rosemary Powder',
+    kannadaName: 'ರೋಸ್ಮೆರಿ ಪುಡಿ',
     size: '100 g packet',
     description:
       'Finely ground dried rosemary leaves. Mix into a herbal hair mask with curd, water or oil.',
     bestFor: ['Herbal hair mask', 'Scalp care'],
     price: '120',
     art: 'pouch',
+    image: '/images/rosemary-powder.png',
     keywords: 'rosemary powder 100g',
   },
   {
     id: 'shikakai-powder',
     name: 'Shikakai Powder',
+    kannadaName: 'ಸೀಗೇಕಾಯಿ ಪುಡಿ',
     size: '100 g packet',
     description:
       'Fine powder from dried shikakai pods, traditionally used as a gentle natural hair cleanser.',
     bestFor: ['Gentle cleansing', 'Everyday wash'],
     price: '80',
     art: 'pouch',
+    image: '/images/shikakai-powder.png',
     keywords: 'shikakai powder 100g',
   },
 ];

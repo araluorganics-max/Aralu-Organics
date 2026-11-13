@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="araluGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C5239" />
+      <stop offset="100%" stop-color="#162D20" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded circular brand background -->
+  <rect width="64" height="64" rx="16" fill="url(#araluGrad)" />
+  
+  <!-- Subtle inner glow border -->
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#E3AE55" stroke-width="1.5" stroke-opacity="0.35" />
+  
+  <!-- Sprout Stem -->
+  <path d="M32 50 C32 38 31 24 32 16" fill="none" stroke="#E3AE55" stroke-width="2.75" stroke-linecap="round" />
+  
+  <!-- Left Sprout Leaf -->
+  <path d="M32 34 C21 34 16 26 18 19 C25 19 32 25 32 34 Z" fill="#E3AE55" />
+  
+  <!-- Right Sprout Leaf -->
+  <path d="M32 27 C41 26 46 19 44 13 C37 13 32 19 32 27 Z" fill="#F4EFE3" />
+  
+  <!-- Golden Seed / Bloom Bud at top -->
+  <circle cx="32" cy="15" r="3" fill="#C8861D" />
+  <circle cx="32" cy="15" r="1.5" fill="#F4EFE3" />
+</svg>
+
